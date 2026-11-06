@@ -180,15 +180,13 @@ python agent_setup.py
 
 ![打開 WorkBuddy 自定義連接器](docs/images/01-open-custom-connectors.png)
 
-### 第三步：信任 work-iq
+### 第三步：信任並啟用 work-iq
 
-喺列表搵到 `work-iq`，按 **Trust**；狀態變成已啟用後，開一個新對話。
+喺列表搵到 `work-iq`。第一次連接時先按 **Trust**，再確認右側開關保持開啟。完成後應見到 `12/12 個工具已啟用`，然後開一個新對話。
 
-![信任 work-iq 連接器](docs/images/02-trust-work-iq.png)
+![信任並啟用 work-iq 連接器](docs/images/02-trust-work-iq.png)
 
-> 圖中 `wenyan-mcp` 係來源文章嘅示例；你實際要搵同信任嘅係 **`work-iq`**。不同 WorkBuddy 版本嘅按鈕位置可能略有差異，AI Agent 應以目前 UI 為準。
->
-> 截圖來源：[WorkBuddy 入門教學（AI 产品拾光，經 ima.qq.com 公開內容）](https://ima.qq.com/wiki/?shareId=c515f7ce88aa5b4db27ede590c59c57c067b23af19a86c89160dd63bbb7446d3&mediaId=wechatarticle_5f1edcb4f787a4bb7c23e8d872a55179_6bee2ea4077caad0edf533d8acbe96107474013655809550&action=openDetailDrawer&webFrom=10000171)。第二張圖只裁剪同一來源以突出 Trust 按鈕。
+> 呢兩張圖來自 Forward Fashion 實際 WorkBuddy 環境。第二張顯示嘅係 `work-iq` 已信任及啟用後嘅狀態；**Trust** 按鈕只會喺尚未信任時出現。不同 WorkBuddy 版本嘅按鈕位置可能略有差異，AI Agent 應以目前 UI 為準。
 
 AI Agent 可以同用戶講：
 
