@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+msal_token_cache.bin
+workiq_creds.json
+workiq_token.json
+admin_*
+device_code.json
+_dc.json
+_wqtok.txt
+_admintok.txt
+_graphtok.txt
+Thumbs.db
+Desktop.ini
